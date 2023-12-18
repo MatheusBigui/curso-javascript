@@ -1,0 +1,9 @@
+var s ='javaScript'
+
+'Estou aprendendo s' // Não faz interpolação
+'Estou aprendendo ' + s //Usa concatenação
+`Estou aprendendo ${s}` //Usa template string
+
+s.length //quantos caracteres a string tem
+s.toUpperCase() //tudo para 'MAIUSCULAS'
+s,toLowerCase() //tudo para 'minusculas'
