@@ -1,0 +1,64 @@
+Aritiméticos
+
+5+2 = 7  //soma
+5-2 = 3  //subtração
+5*2 = 10 //multiplicação
+5/2 = 2.5 //divisão real
+5%2 = 1 //resto de divisão inteira
+5**2 = 25 //elevação
+
+ordem de precedência dos Aritiméticos
+
+|  ()
+|  **
+|  *   /   % 
+|  +   -
+v
+
+Relacionais
+
+5<2 = true   //menor
+7>4 = false  //maior
+8<=8 = true  //menor ou igual
+9>=7 = false //maior ou igual
+5==5 = true  //igual
+4!=4 = false //diferente
+
+Identidade
+
+5==5    true  //verifica o valor
+5=='5'  true  
+5==='5' false //verifica valor e tipo
+5===5   true
+
+Lógicos
+
+!  //não
+!true -> false
+!false ->true
+
+&& //conjunção (e)
+true && true -> true
+true && false -> false
+false && true -> false
+false && false -> false
+
+|| //disjunção (ou)
+true || true -> true
+true || false -> true
+false || true -> true
+false || false -> false
+
+ordem de precedência GLOBAL
+
+| () ** / % * + -
+| > < <= >= == !=
+| !  
+| &&
+| ||
+v
+
+Ternários
+
+teste_logico ? se true : se false
+media >= 7.0 ? "aprovado" : "reprovado"
