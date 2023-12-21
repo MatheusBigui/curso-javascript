@@ -1,0 +1,13 @@
+//Tipos de Condições
+
+Condições simples
+if (condição){
+    true
+}
+
+Condições Compostas
+if (condição){
+    true
+} else{
+    false
+}
