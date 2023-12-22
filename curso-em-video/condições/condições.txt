@@ -11,3 +11,31 @@ if (condição){
 } else{
     false
 }
+
+Condições aninhadas
+
+if(condição){
+    true
+} else{
+    if(condição){
+        true
+    } else{
+        false
+    }
+}
+
+Condições multiplas
+switch(expressao){
+    case valor1:
+        [faça isso]
+        break
+    case valor2:
+        [faça isso]
+        break
+    case valor3:
+        [faça isso]
+        break
+    default[caso nenhum do anteriores satisfaça]:
+        [faça isso]
+        break
+}
