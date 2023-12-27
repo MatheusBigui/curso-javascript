@@ -1,5 +1,6 @@
 let n = 0
 
+//enquanto a expressão for verdadeira será executado o bloco de comando
 while (n < 10) {
     console.log(n)
     n++
