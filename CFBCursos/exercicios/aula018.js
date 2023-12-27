@@ -12,4 +12,4 @@ do {
     n2++
 } while (n2 < 10)
 
-console.log("Fim do progama")
+console.log("Fim do programa")
