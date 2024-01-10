@@ -6,4 +6,4 @@ var s ='javaScript'
 
 s.length //quantos caracteres a string tem
 s.toUpperCase() //tudo para 'MAIUSCULAS'
-s,toLowerCase() //tudo para 'minusculas'
+s.toLowerCase() //tudo para 'minusculas'
